@@ -91,7 +91,9 @@ button:hover {
 #power-profiles-daemon,
 #mpd {
     padding: 0 10px;
-    color: #ffffff;
+    background-color: #f590a5;
+    color: #000000;
+    border-radius: 15px;
 }
 
 #window,
@@ -107,16 +109,6 @@ button:hover {
 /* If workspaces is the rightmost module, omit right margin */
 .modules-right > widget:last-child > #workspaces {
     margin-right: 0;
-}
-
-#clock {
-    background-color: #f590a5;
-    color: #000000;
-}
-
-#battery {
-    background-color: #f590a5;
-    color: #000000;
 }
 
 #battery.charging, #battery.plugged {
@@ -165,38 +157,8 @@ label:focus {
     background-color: #000000;
 }
 
-#cpu {
-    background-color: #f590a5;
-    color: #000000;
-}
-
-#memory {
-    background-color: #f590a5;
-    color: #000000;
-}
-
-#disk {
-    background-color: #f590a5;
-    color: #000000;
-}
-
-#backlight {
-    background-color: #f590a5;
-    color: #000000;
-}
-
-#network {
-    background-color: #f590a5;
-    color: #000000;
-}
-
 #network.disconnected {
     background-color: #600f40;
-    color: #000000;
-}
-
-#pulseaudio {
-    background-color: #f590a5;
     color: #000000;
 }
 
@@ -210,18 +172,11 @@ label:focus {
     color: #2a5c45;
 }
 
-#wireplumber {
-    background-color: #fff0f5;
-    color: #000000;
-}
-
 #wireplumber.muted {
     background-color: #f53c3c;
 }
 
 #custom-media {
-    background-color: #f590a5;
-    color: #000000;
     min-width: 100px;
 }
 
@@ -233,18 +188,8 @@ label:focus {
     background-color: #ffa000;
 }
 
-#temperature {
-    background-color: #f590a5;
-    color: #000000;
-}
-
 #temperature.critical {
     background-color: #eb4d4b;
-}
-
-#tray {
-    background-color: #f590a5;
-    color: #000000;
 }
 
 #tray > .passive {
@@ -258,6 +203,7 @@ label:focus {
 
 #idle_inhibitor {
     background-color: #2d3436;
+    color: #ffffff;
 }
 
 #idle_inhibitor.activated {

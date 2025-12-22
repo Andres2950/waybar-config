@@ -1,12 +1,11 @@
 * {
     /* `otf-font-awesome` is required to be installed for icons */
     font-family: FontAwesome, Roboto, Helvetica, Arial, sans-serif;
-    font-size: 13px;
+    font-size: 15px;
 }
 
 window#waybar {
-    background-color: rgba(45, 20, 40, 1);
-    border-bottom: 3px solid rgba(45, 20, 40, 0.7);
+    background-color: rgba(45, 20, 40, 0.8);
     color: #ffffff;
     transition-property: background-color;
     transition-duration: .5s;
@@ -94,7 +93,16 @@ button:hover {
     background-color: #f590a5;
     color: #000000;
     border-radius: 15px;
+    margin: 6px 0;
 }
+
+#custom-menu_button {
+    padding: 0 10px;
+    color: #ffffff;
+    font-size: 15px;
+    margin: 6px 0;
+}
+
 
 #window,
 #workspaces {
@@ -204,11 +212,13 @@ label:focus {
 #idle_inhibitor {
     background-color: #2d3436;
     color: #ffffff;
+    padding: 0 10px;
 }
 
 #idle_inhibitor.activated {
     background-color: #ecf0f1;
     color: #2d3436;
+    padding: 0 10px;
 }
 
 #mpd {

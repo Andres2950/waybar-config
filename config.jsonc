@@ -11,6 +11,7 @@
         "sway/mode",
         "sway/scratchpad",
         "custom/media",
+        "custom/menu_button",
         "clock",
         "tray",
         "battery",
@@ -20,8 +21,8 @@
         "sway/window"
     ],
     "modules-right": [
+        "sway/workspaces",
         "mpd",
-        "idle_inhibitor",
         "pulseaudio",
         "power-profiles-daemon",
         "cpu",
@@ -29,10 +30,15 @@
         "disc",
         "temperature",
         "backlight",
-        "keyboard-state",
         "sway/language",
         "custom/power"
     ],
+    "custom/menu_button": {
+        "format": "⁝", // Example: Power icon from Nerd Font
+        "tooltip": true,
+        "on-click": "wofi --show drun", // Command to run on click 
+        "interval": "once", // Or set a time like 10, or "once" for static buttons
+    },
     // Modules configuration
      "sway/workspaces": {
          "disable-scroll": true,
@@ -120,7 +126,7 @@
         "tooltip": false
     },
     "memory": {
-        "format": "{}% "
+        "format": "{}% ◈"
     },
     "temperature": {
         // "thermal-zone": 2,

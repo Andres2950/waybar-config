@@ -99,17 +99,23 @@ button:hover {
     margin: 6px 0;
 }
 
-#custom-menu_button {
+#custom-menu_button,
+#custom-power {
     padding: 0 10px;
+    background-color: #680c3b;
     color: #ffffff;
     font-size: 15px;
     margin: 6px 0;
+    border-radius: 15px;
 }
 
 #custom-firefox:hover,
 #custom-steam:hover,
-#custom-lutris:hover {
+#custom-lutris:hover, 
+#custom-power:hover,
+#custom-menu_button:hover {
     background-color: #ffffff;
+    color: #000000;
 }
 
 

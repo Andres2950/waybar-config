@@ -92,11 +92,11 @@ button:hover {
 #custom-firefox,
 #custom-steam,
 #custom-lutris {
-    padding: 0 10px;
+    padding: 0 5px;
     background-color: #f590a5;
     color: #000000;
     border-radius: 15px;
-    margin: 6px 0;
+    margin: 5px 0;
 }
 
 #custom-menu_button,
@@ -105,7 +105,7 @@ button:hover {
     background-color: #680c3b;
     color: #ffffff;
     font-size: 15px;
-    margin: 6px 0;
+    margin: 6px 5px;
     border-radius: 15px;
 }
 

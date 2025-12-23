@@ -18,7 +18,9 @@
         "battery#bat2",
     ],
     "modules-center": [
-        "sway/window"
+        "custom/firefox",
+        "custom/steam",
+        "custom/lutris"
     ],
     "modules-right": [
         "sway/workspaces",
@@ -38,6 +40,22 @@
         "tooltip": true,
         "on-click": "wofi --show drun", // Command to run on click 
         "interval": "once", // Or set a time like 10, or "once" for static buttons
+    },
+    "custom/firefox":{
+        "format":"Firefox",
+        "on-click":"firefox",
+        "interval":"once"
+
+    },
+    "custom/steam":{
+        "format":"Steam",
+        "on-click":"steam",
+        "interval":"once"
+    },
+    "custom/lutris":{
+        "format":"Lutris",
+        "on-click":"lutris",
+        "interval":"once"
     },
     // Modules configuration
      "sway/workspaces": {

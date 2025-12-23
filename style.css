@@ -88,7 +88,10 @@ button:hover {
 #idle_inhibitor,
 #scratchpad,
 #power-profiles-daemon,
-#mpd {
+#mpd,
+#custom-firefox,
+#custom-steam,
+#custom-lutris {
     padding: 0 10px;
     background-color: #f590a5;
     color: #000000;
@@ -101,6 +104,12 @@ button:hover {
     color: #ffffff;
     font-size: 15px;
     margin: 6px 0;
+}
+
+#custom-firefox:hover,
+#custom-steam:hover,
+#custom-lutris:hover {
+    background-color: #ffffff;
 }
 
 
